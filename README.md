@@ -19,9 +19,18 @@ step8 : Open web browser and type "localhost:8080" And thats It ..
 ```
 
 
-### Prerequisites
+## Prerequisites
 
 What things you need to Setup and run Textraction Web application on your local Machine
+
+## Important
+
+```
+Create a file ".babelrc" in project root directory and add the following in file i.e Line 28 to Line 30 :
+{
+    'presets': ['@babel/preset-env']
+}
+```
 
 ```
 Create an account on Aylient Text analysis Api and get app id and key.
